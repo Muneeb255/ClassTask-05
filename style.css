@@ -3,16 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    background-color: #0080ff;
+    background-color: #0056b3; /* Darker shade of blue */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
+    flex-direction: column; /* Allows for vertical stacking */
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
+    margin: 0; /* Removes default body margin */
+    padding: 20px; /* Adds padding around the body */
+    box-sizing: border-box; /* Includes padding in width/height */
+    color: #ffffff; /* White text for contrast */
 }
+
+h1 {
+    font-size: 3rem; /* Large heading size */
+    margin: 0 0 20px 0; /* Adds space below the heading */
+}
+
+p {
+    font-size: 1.2rem; /* Slightly larger paragraph text */
+    max-width: 600px; /* Restricts text width for better readability */
+    margin: 0; /* Removes default paragraph margin */
+}
+
 
 .container {
     background-color: #ffffff;
