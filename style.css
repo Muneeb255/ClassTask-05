@@ -56,7 +56,6 @@ body {
     font-size: 18px;
     transition: background-color 0.3s ease;
 }
-
 .calculator button:hover {
     background-color: #333;
 }
@@ -64,6 +63,7 @@ body {
 .results {
     display: flex;
     justify-content: space-around;
+    gap: 20px;
 }
 
 .result-box {
@@ -74,6 +74,7 @@ body {
     width: 120px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+    
 }
 
 .result-box:hover {
